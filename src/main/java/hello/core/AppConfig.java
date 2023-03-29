@@ -17,9 +17,6 @@ public class AppConfig {
     //중복제거 및 역할에 따라 분리(리팩터링)
     //역할과 구조가 한눈에 들어옴, 애플리케이션 전체구성 빠르게 파악 가능
 
-    //@Bean memberService --> new MemoryMemberRepository()
-    //@Bean orderService --> new MemoryMemberRepository()
-
     @Bean
     //MemberService 역할
     public MemberService memberService() {
